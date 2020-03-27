@@ -17,12 +17,15 @@ Follow the steps below to run the example application:
 
         ./gradlew run
         
-    If successful, you will see the following in the console:
+    If successful, you will see the following in the Gradle console:
 
+        > Task :run
         [main] INFO example.localstack.s3.Main - Running the Upload Example...
         [main] INFO example.localstack.s3.Main - Upload Example Complete
         [main] INFO example.localstack.s3.Main - Running the Multipart Upload Example...
         [main] INFO example.localstack.s3.Main - Multipart Upload Example Complete
+        
+    
 
 ## Bugs and Feedback
 For bugs, questions, feedback, and discussions please use the [Github Issues](https://github.com/gregwhitaker/s3-localstack-example/issues).
