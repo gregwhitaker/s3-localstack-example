@@ -25,7 +25,13 @@ Follow the steps below to run the example application:
         [main] INFO example.localstack.s3.Main - Running the Multipart Upload Example...
         [main] INFO example.localstack.s3.Main - Multipart Upload Example Complete
         
+    and you will see the following in the localstack console:
     
+        localstack    | 2020-03-27 20:31:41,054:API: 127.0.0.1 - - [27/Mar/2020 20:31:41] "PUT /com.github.gregwhitaker.example/ HTTP/1.1" 200 -
+        localstack    | 2020-03-27 20:31:41,245:API: 127.0.0.1 - - [27/Mar/2020 20:31:41] "PUT /com.github.gregwhitaker.example/basic/cat.jpeg HTTP/1.1" 200 -
+        localstack    | 2020-03-27 20:31:41,370:API: 127.0.0.1 - - [27/Mar/2020 20:31:41] "POST /com.github.gregwhitaker.example/multipart/cat.jpeg?uploads HTTP/1.1" 200 -
+        localstack    | 2020-03-27 20:31:41,517:API: 127.0.0.1 - - [27/Mar/2020 20:31:41] "PUT /com.github.gregwhitaker.example/multipart/cat.jpeg?uploadId=FpLND9meIT1KqJ4R6lsi78GRh6kWQI2uRPrkcEbH0tZnBfgVu9TOJzN7lg&partNumber=1 HTTP/1.1" 200 -
+        localstack    | 2020-03-27 20:31:41,652:API: 127.0.0.1 - - [27/Mar/2020 20:31:41] "POST /com.github.gregwhitaker.example/multipart/cat.jpeg?uploadId=FpLND9meIT1KqJ4R6lsi78GRh6kWQI2uRPrkcEbH0tZnBfgVu9TOJzN7lg HTTP/1.1" 200 -
 
 ## Bugs and Feedback
 For bugs, questions, feedback, and discussions please use the [Github Issues](https://github.com/gregwhitaker/s3-localstack-example/issues).
