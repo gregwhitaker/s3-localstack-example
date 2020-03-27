@@ -1,4 +1,18 @@
 # s3-localstack-example
+Example of writing to a local Amazon S3 bucket using [localstack](https://github.com/localstack/localstack).
+
+## Building the Example
+Run the following command to build the example application:
+
+    ./gradlew clean build
+    
+## Running the Example
+Follow the steps below to run the example application:
+
+1. TBD
+
+## Bugs and Feedback
+For bugs, questions, feedback, and discussions please use the [Github Issues](https://github.com/gregwhitaker/s3-localstack-example/issues).
 
 ## License
 MIT License
