@@ -1,4 +1,6 @@
 # s3-localstack-example
+![Build](https://github.com/gregwhitaker/s3-localstack-example/workflows/Build/badge.svg)
+
 Example of writing to a local Amazon S3 bucket using [localstack](https://github.com/localstack/localstack).
 
 ## Building the Example
